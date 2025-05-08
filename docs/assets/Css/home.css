@@ -100,7 +100,7 @@ section:nth-child(odd) {
 
 @media (max-width: 513px) {
   #home {
-    height: 80vh;
+    height: 75vh;
   }
   .name {
     margin-top: 5rem;
