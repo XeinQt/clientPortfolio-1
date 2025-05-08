@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+
+    <!-- Link CSS Files -->
+    <link rel="stylesheet" href="assets/Css/style.css" />
+    <link rel="stylesheet" href="assets/Css/home.css" />
+    <link rel="stylesheet" href="assets/Css/about.css" />
+    <link rel="stylesheet" href="assets/Css/photos.css" />
+    <link rel="stylesheet" href="assets/Css/contact.css" />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Style+Script&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
+    <!-- Header Section -->
+    <header>
+      <div class="container">
+        <div class="logo">My Portfolio</div>
+        <div class="menu-toggle" onclick="toggleMenu()">&#9776;</div>
+        <nav id="navbar">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#photos">Photos</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home">
+      <h1 class="name">Shiela</h1>
+      <img
+        src="assets/img/9214926e-8607-4233-87d3-f57ad0267224.jpg"
+        alt="Shiela's Image"
+      />
+      <h1 class="fullname">
+        <span class="names">Hello</span>, I'm Shiela Mae Dacillo
+      </h1>
+      <p>
+        As a student with a passion for design, I excel at combining creativity
+        with technical skills to create visually striking and functional
+        designs. My proficiency in design software and understanding of design
+        principles enable me to deliver innovative and user-centered solutions.
+      </p>
+      <div class="buttons-div">
+        <button>Hire Me</button>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-tiktok"></i>
+        <i class="fa-solid fa-envelope"></i>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+      <div class="about-left">
+        <img
+          src="assets/img/71615c4d-5b9b-40cc-b863-bb6870cedd9e.jpg"
+          alt="About Image"
+        />
+      </div>
+      <div class="about-right">
+        <h1>About Me</h1>
+        <p>
+          I am <span class="fullnamess">Sheila Mae L. Dacillo</span>, 19 years
+          old, born on October 5, 2004. I'm currently living in Purok 4,
+          Cabangcalan, Banaybanay, Davao Oriental. A dreamer, introverted, and a
+          creative person who loves to spend time alone with my thoughts,
+          creating elaborate tales and fantastical worlds.
+        </p>
+        <h2>My Hobbies</h2>
+        <div class="i-div">
+          <img src="assets/img/yarn.png" alt="Yarn" />
+          <img src="assets/img/books.jpg" alt="Books" />
+          <img src="assets/img/crochet.jpg" alt="Crochet" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Photos Section -->
+    <section id="photos">
+      <h1>Photos</h1>
+      <div class="photos-div">
+        <img src="assets/img/sheila-1.png" alt="Photo 1" />
+        <img src="assets/img/maoni.jpg" alt="Photo 2" />
+        <img src="assets/img/sheila-2.png" alt="Photo 3" />
+        <img
+          src="assets/img/9214926e-8607-4233-87d3-f57ad0267224.jpg"
+          alt="Photo 4"
+        />
+        <img src="assets/img/maoni2.jpg" alt="Photo 5" />
+        <img src="assets/img/sheila-3.png" alt="Photo 6" />
+        <img
+          src="assets/img/71615c4d-5b9b-40cc-b863-bb6870cedd9e.jpg"
+          alt="Photo 7"
+        />
+        <img src="assets/img/sheila-4.png" alt="Photo 8" />
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <h1>Contact Us</h1>
+      <form action="#" method="POST" class="contact-form">
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" required />
+        <label for="email">Your Email:</label>
+        <input type="email" id="email" name="email" required />
+        <label for="message">Your Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+        <button type="submit">Submit</button>
+      </form>
+      <div class="social-icons">
+        <i class="fab fa-facebook"></i>
+        <i class="fas fa-envelope"></i>
+        <i class="fab fa-tiktok"></i>
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+      <div class="footer-container">
+        <p>&copy; 2025 Your Website. All Rights Reserved.</p>
+      </div>
+    </footer>
+
+    <script src="assets/js/index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,155 @@
+#about {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.about-left img {
+    width: 30rem;
+    border-radius: 100%;
+}
+
+.about-right {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    color: white;
+}
+
+.about-right h1 {
+    margin-top: -2rem;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    text-align: start;
+}
+
+.about-right p {
+    text-align: start;
+    width: 600px;
+    margin-top: -1rem;
+    font-size: 1rem;
+    margin-bottom: 3rem;
+}
+
+.fullnamess {
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+.i-div {
+    width: 450px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-right h2 {
+    margin-bottom: 1rem;
+    margin-top: -1rem;
+}
+
+.i-div img {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+@media (max-width: 1075px) {
+    .about-left img {
+        width: 20rem;
+    }
+    .about-right p {
+        width: 600px;
+    }
+}
+
+@media (max-width: 948px) {
+    #about {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about-right {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .i-div img {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        border: 2px solid white;
+    }
+
+    .i-div {
+        width: 350px;
+    }
+
+    .about-right p {
+        margin-top: -2rem;
+    }
+
+    .about-right h2 {
+        margin-top: -3rem;
+    }
+}
+
+@media (max-width: 768px) {
+    #about {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about-right {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about-right h1 {
+        margin-top: -4rem;
+        margin-bottom: 1rem;
+        font-size: 1.5rem;
+        text-align: start;
+    }
+
+    .fullnamess {
+        font-size: 1rem;
+    }
+
+    .about-right p {
+        text-align: center;
+        width: 400px;
+        margin-top: -1rem;
+        font-size: 0.8rem;
+        margin-bottom: 6rem;
+    }
+
+    .about-right h2 {
+        font-size: 1rem;
+        margin-top: -5rem;
+    }
+
+    .i-div i {
+        font-size: 1rem;
+        width: 30px;
+        height: 30px;
+    }
+
+    .i-div {
+        width: 350px;
+    }
+}

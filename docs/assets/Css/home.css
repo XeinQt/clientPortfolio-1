@@ -1,0 +1,140 @@
+section {
+  width: 100%;
+  height: 110vh;
+}
+
+section:nth-child(odd) {
+  background-color: #2e2f2f;
+}
+
+#home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-self: center;
+}
+
+#home img {
+  width: 20rem;
+  border-radius: 100%;
+}
+
+.name {
+  margin-top: 4rem;
+  font-family: "Style Script", serif;
+  font-size: 5rem;
+}
+
+.chix {
+  margin-top: -2rem;
+  font-weight: 400;
+}
+
+.names {
+  font-family: "Style Script", serif;
+  font-size: 5rem;
+  font-weight: 300;
+}
+
+.fullname {
+  font-size: 3rem;
+}
+
+#home p {
+  text-align: center;
+  width: 800px;
+  margin-top: -1rem;
+}
+
+.buttons-div {
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 1rem;
+}
+
+.buttons-div button {
+  padding: 10px 20px;
+  border: none;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.buttons-div i {
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.buttons-div button:hover,
+.buttons-div i:hover {
+  opacity: 0.7;
+}
+
+@media (max-width: 768px) {
+  #home img {
+    width: 15rem;
+  }
+
+  .name {
+    margin-top: 5rem;
+    font-size: 3rem;
+  }
+
+  .names {
+    font-size: 3rem;
+    font-weight: 300;
+  }
+
+  .fullname {
+    font-size: 2rem;
+  }
+
+  #home p {
+    margin-top: 0.5rem;
+    width: 600px;
+  }
+}
+
+@media (max-width: 513px) {
+  #home {
+    height: 70vh;
+  }
+  .name {
+    margin-top: 5rem;
+    font-size: 3rem;
+  }
+
+  #home img {
+    width: 11rem;
+  }
+
+  .names {
+    font-size: 2rem;
+    font-weight: 300;
+  }
+
+  .fullname {
+    font-size: 1.6rem;
+  }
+
+  #home p {
+    text-align: center;
+    width: 400px;
+    font-size: 0.7rem;
+  }
+
+  .buttons-div button {
+    padding: 5px 10px;
+  }
+
+  .buttons-div i {
+    font-size: 1.2rem;
+  }
+
+  .buttons-div {
+    width: 200px;
+  }
+}
